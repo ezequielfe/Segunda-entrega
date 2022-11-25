@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    width: 100%;
+    min-height: 70px;
+    background-color: rgb(55, 48, 119);
+    align-items: center;
+}
+    
+.titulo{
+    font-weight: bolder;
+    color: white;
+    font-family:'Times New Roman', Times, serif
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+footer h3 {
+    color: white;
+    font-size: small;
+}
+
+
+.tarjeta {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+}
